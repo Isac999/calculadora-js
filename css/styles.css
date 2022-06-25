@@ -1,0 +1,51 @@
+body {
+    font-family: Arial;
+    font-size: 20px;
+    text-align: center;
+    background-image: linear-gradient(to right, rgba(128, 166, 26, 0.888) , rgba(89, 193, 137, 0.878));
+}
+main {
+    text-align: center;
+}
+#keyboard {
+    position: absolute;
+    left: 470px;
+    background-color: rgb(78 75 95);
+    width: 323px;
+    height: 430px;
+    border-radius: 0px 0px 10px 10px;
+}
+button {
+    width: 75px;
+    height: 80px;
+    font-size: 35px;
+    font-weight: bold;
+    border: none;
+    margin: 0.5px;
+    background-color: white;
+    color: black;
+}
+button:hover {
+    cursor: pointer;
+}
+#result {
+    background-color: rgb(44, 39, 30);
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    width: 297px;
+    height: 65px;
+    margin-left: 462px;
+    padding: 20px 10px 0px;
+    text-align: right;
+    border-radius: 10px 10px 0px 0px;
+    border-style:solid;
+    border-color: rgb(78 75 95);
+}
+#add, #sub, #multiply, #division {
+    background-color: rgb(197, 197, 197);
+}
+#equal {
+    background-color: orange;
+}
